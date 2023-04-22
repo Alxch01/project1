@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+body { 
+    font-family: "Roboto", sans-serif;
+    background-color: #f7cd73;
+}
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(71, 197, 134);
+    padding: 20px;
+}
+img {
+    width: 100%;
+    max-width: 90px;
+    height: 150px;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.titulo {
+    font-size: 24px;
+}
+#titulo-principal {
+    text-align: center;
+    color: blue;
+}
+.subtitulo {
+    font-size: 18px;
+    color: rgb(78, 179, 78);
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 5px;
+}
+.pie-pag {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(85, 240, 144);
+}
+.pie-2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.iconos i.first-child {
+    margin-right: auto;
+}
+.icons i.last-child {
+    margin-left: auto;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+i.fa-brands.fa-linkedin {
+    font-size: 2rem;
+    
+}
+i.fa-brands.fa-facebook {
+    font-size: 2rem;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:  #fbfbfb;
+    margin: 10px;
+    padding: 10px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+    margin: left;
+    padding: 0;
+   
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li a {
+    margin: 0px;
+    margin-right: 2em;
+    text-align: center; 
+    text-decoration: none;
+}
+
+main {
+    
+    max-width: 300px;
+    margin: auto;
+    text-align: center;   
+}
+.cuerpo {
+    line-height: 1.2;
+    max-width: 300px;
+}
+
+h1 {
+        font-size: 36px;
+}
+    
+button {
+    font-size: 20px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+section {
+    min-height: 100vh;
+}
+
+.ialex {
+    width: 300px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.boton {
+    display: inline-block;
+    background-color:  #af599e;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.boton:hover {
+    background-color: #333;
+    color: #fbfbfb;
+    border: 2px solid #fff;
+}
+
+.espaciado {
+    width: 120px;
+    height: 320px;
+}
+#contacto {
+    background-color: rgba(175, 89, 158, 0.3);
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.tcontacto {
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    
+    color: #0f0f0f;
+   
+}
+h2 {
+    font-size: 28px;
+}
+
+
+.iconos ul {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    margin-top: 150px;
+    padding: 10px 10px;
+    
+}
+.iconos a{
+    margin: 0  10px;
+}
+.iconos img {
+    width: 70px;
+    height: 80%;
+}
+
+.pie-pag {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #af599e;
+}
+
+.t-pie-pag {
+    color: #fbfbfb;
+    text-align: center;   
+}
